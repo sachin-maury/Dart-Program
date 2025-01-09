@@ -7,6 +7,7 @@ void main() {
   double R = double.parse(stdin.readLineSync()!);
   stdout.write("Enter your Time= ");
   double T = double.parse(stdin.readLineSync()!);
+  //here i put condition
   double sum = (P * R * T) / 100;
   print("${sum} is a simple interest");
 }
